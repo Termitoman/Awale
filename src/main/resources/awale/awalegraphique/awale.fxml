@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="521.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="awale.awalegraphique.ControlleurPrincipal">
+   <children>
+      <Circle fx:id="cercle0l0" fill="#1f93ff00" layoutX="106.0" layoutY="103.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle1l0" fill="#1f93ff00" layoutX="168.0" layoutY="103.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle2l0" fill="#1f93ff00" layoutX="230.0" layoutY="103.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle3l0" fill="#1f93ff00" layoutX="292.0" layoutY="103.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle4l0" fill="#1f93ff00" layoutX="354.0" layoutY="103.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle5l0" fill="#1f93ff00" layoutX="416.0" layoutY="103.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle0l1" fill="#1f93ff00" layoutX="106.0" layoutY="164.0" onMouseClicked="#clicSurCercle0l1" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle1l1" fill="#1f93ff00" layoutX="168.0" layoutY="164.0" onMouseClicked="#clicSurCercle1l1" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle2l1" fill="#1f93ff00" layoutX="230.0" layoutY="164.0" onMouseClicked="#clicSurCercle2l1" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle3l1" fill="#1f93ff00" layoutX="292.0" layoutY="164.0" onMouseClicked="#clicSurCercle3l1" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle4l1" fill="#1f93ff00" layoutX="354.0" layoutY="164.0" onMouseClicked="#clicSurCercle4l1" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercle5l1" fill="#1f93ff00" layoutX="416.0" layoutY="164.0" onMouseClicked="#clicSurCercle5l1" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fx:id="textc0l0" layoutX="99.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc5l1" layoutX="409.0" layoutY="171.0" onMouseClicked="#clicSurCercle5l1" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc4l1" layoutX="347.0" layoutY="171.0" onMouseClicked="#clicSurCercle4l1" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc3l1" layoutX="285.0" layoutY="171.0" onMouseClicked="#clicSurCercle3l1" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc2l1" layoutX="223.0" layoutY="171.0" onMouseClicked="#clicSurCercle2l1" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc1l1" layoutX="161.0" layoutY="171.0" onMouseClicked="#clicSurCercle1l1" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc0l1" layoutX="99.0" layoutY="171.0" onMouseClicked="#clicSurCercle0l1" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc5l0" layoutX="409.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc4l0" layoutX="347.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc3l0" layoutX="285.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc2l0" layoutX="223.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="textc1l0" layoutX="161.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Circle fx:id="cercleGrenierJoueur" fill="#1f93ff00" layoutX="478.0" layoutY="136.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cercleGrenierIA" fill="#1f93ff00" layoutX="45.0" layoutY="134.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fx:id="grenierIA" layoutX="38.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="grenierJoueur" layoutX="471.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fx:id="informations" layoutX="1.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Début de la partie !" textAlignment="CENTER" wrappingWidth="521.0" />
+      <TextField fx:id="profondeur" layoutX="138.0" layoutY="233.0" />
+      <Text fx:id="infoDebut" layoutX="104.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veuillez renseigner la profondeur limite de recherche que vous souhaitez :" textAlignment="CENTER" wrappingWidth="312.7294921875" />
+      <Button fx:id="boutonConfirmer" layoutX="306.0" layoutY="233.0" mnemonicParsing="false" onAction="#nouvelleProfondeur" text="Confirmer" />
+   </children>
+</Pane>
